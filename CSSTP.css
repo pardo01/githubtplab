@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap');
+
+			body{
+
+				background-image: url('box3.jpg');
+			}
+
+			*{
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+
+			#titulo{
+				width: 504px;
+				padding: 40px;
+				margin: auto;
+				margin-top: 42px;
+				border-radius: 25px;
+				color: whitesmoke;
+				font-family: 'Source Serif Pro', serif;
+				font-size: 66px;
+				background: transparent;
+				box-shadow: 7px 13px 37px #000;
+
+			}
+
+			.formulario{
+				width: 400px;
+				background:rgba(0,0,0,0.8);
+				padding: 30px;
+				margin: auto;
+				margin-top: 60px;
+				border-radius: 20px;
+				font-family: 'Source Serif Pro', serif;
+				color: black;
+				box-shadow: 7px 13px 37px #000;
+			}
+
+			.formulario h4{
+				font-size: 25px;
+				margin-bottom: 20px;
+				color:whitesmoke ;
+			}
+			.formulario h4#preg{
+				font-size: 25px;
+				margin-bottom: 20px;
+				color:darkred ;
+			}
+
+			.datos{
+				width: 100%;
+				background: lightgrey;
+				padding: 10px;
+				border-radius: 20px;
+				margin-bottom: 16px;
+				border: 2px solid #161617;
+				font-family: 'calibri';
+				font-size: 18px;
+
+			}
+
+			div input.datos{
+				width: 46px;
+    			margin-top: 14px;
+			}
+
+
+			.rta{
+				width: 85%;
+			    background: lightgrey;
+			    padding: 10px;
+			    border-radius: 20px;
+			    margin-bottom: 0px;
+			    border: 2px solid #161617;
+			    font-family: 'calibri';
+			    font-size: 18px;
+			    display: table;
+			    float: left;
+
+			}
+
+			.formulario h4.preguntas{
+				width: 100%;
+			    background: lightgrey;
+			    padding: 15px;
+			    border-radius: 20px;
+			    margin-bottom: 23px;
+			    border: 2px solid #161617;
+			    font-family: 'calibri';
+			    font-size: 18px;
+			    margin-top: 24px;
+			    color: black;
+			}
+
+			#caja{
+				width: 54%;
+			    background: lightgrey;
+			    padding: 19px;
+			    border-radius: 20px;
+			    margin-bottom: -8px;
+			    border: 2px solid #161617;
+			    font-family: 'calibri';
+			    font-size: 19px;
+			    margin-top: -3px;
+			    margin-left: 74px;
+			    color: black;
+			}
+
+			#boton{
+				background: black;
+			    color: white;
+			    padding: 18px;
+			    border-radius: 100px;
+			    text-align: center;
+			    margin-left: 115px;
+			    margin-top: 32px;
+			}
+
+			#boton:hover{
+				cursor: pointer;
+
+			}
+
+			#pr7,#pr2{
+				width: 100%;
+				background: lightgrey;
+				padding: 10px;
+				border-radius: 20px;
+				margin-bottom: 16px;
+				border: 2px solid #161617;
+				font-family: 'calibri';
+				font-size: 18px;
+				margin-top: -9px;
+			}
